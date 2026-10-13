@@ -1,0 +1,7 @@
+pandas
+numpy
+statsmodels
+plotly
+geopandas
+streamlit
+jupyter

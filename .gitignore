@@ -1,0 +1,12 @@
+# Raw source data stays local and is never modified or committed.
+data/raw/*
+!data/raw/.gitkeep
+
+# Local environments and generated files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/secrets.toml
