@@ -1,21 +1,5 @@
 # Project Context
 
-## Maia
-
-Maia Griffith has an MPH in Biostatistics and Epidemiology from USC (2022) and a BS in Health and Human Physiology from the University of Iowa.
-
-She was Software Developer at the University of Chicago Institute for Population and Precision Health from January 2023 to August 2026. She was front-end lead for eRMS, a React/TypeScript research-management platform with a Django/PostgreSQL backend, used by 50+ users across 5+ study sites, including the NIH CONNECT cancer study. She led full-stack participant-management, sample-tracking, payment, and automated-reporting features; owned 80% of front-end testing (Cypress and Selenium); trained 20+ clinical and research staff to 100% adoption; and mentored 15+ graduate students building All of Us cohorts with SQL, R, and Python/Jupyter.
-
-Since August 2026, she has been Co-founder and Consulting Engineer at Panaxia Systems, commercializing eRMS through UChicago's Polsky Center. Other experience includes facilitating a Community Memorial Foundation youth-philanthropy program with a $30K fund, serving as a CASA court-appointed advocate, and an MPH practicum analyzing 25+ precision-medicine studies and leading a WCAG 2.1 AA accessibility migration.
-
-Skills include Python, pandas, NumPy, SQL, R, PostgreSQL, React, TypeScript, Django, Git, Docker, AWS, SAS, and SPSS.
-
-## Interview Goal
-
-This is a one-day technical interview project for the selective 12-month UChicago Applied Data Fellowship (adf.uchicago.edu), which places early-career data professionals in local governments and nonprofits. The fellowship emphasizes statistical analysis, visualization, database engineering, ML, LLM integrations, and turning analysis into decisions ("math to mission"). Public-health infrastructure is a project area.
-
-Maia cannot share eRMS code because it is in a licensing negotiation with the Polsky Center. This project demonstrates hands-on analysis and statistics, complementing a resume that reads primarily as software engineering. Be transparent about AI assistance. Maia's framing: "Claude Code did the mechanical work (loading, joins, plotting code). I set the rules in CLAUDE.md, made every analytical decision, and logged what I checked."
-
 ## Project Question
 
 Which Cook County census tracts have both high diabetes prevalence and high social vulnerability, and where should a health department focus outreach first?
@@ -84,13 +68,3 @@ Build a one-page Streamlit app in `app.py` that reads `data/processed/tracts.csv
 - Keep code simple and commented enough for Maia to explain every line in the interview.
 - Maintain `VERIFICATION.md`: one dated line for each check Maia made or correction to assistant output. When Maia corrects the assistant, add a dated line describing the correction. Do not claim Maia performed a check unless she did; distinguish assistant source checks from Maia verification.
 - Do not fabricate findings, data checks, or deployment status.
-
-## One-Day Schedule (About 8 Hours)
-
-- 0:00-0:30: repository setup and `CLAUDE.md`
-- 0:30-2:00: load, clean, and join in the notebook
-- 2:00-3:00: explore and model in the notebook
-- 3:00-5:00: build `app.py`, table and scatter first, then map
-- 5:00-5:45: deploy and test the link
-- 5:45-6:45: README and memo
-- 6:45-8:00: rehearse a 3-minute walkthrough: live dashboard, notebook, then `CLAUDE.md` and `VERIFICATION.md`
